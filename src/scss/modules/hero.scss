@@ -1,0 +1,64 @@
+            body {
+                margin: 0;
+            }
+            
+            .menu {
+                display: flex;
+                position: fixed;
+                background: rgba(90, 45, 15, 0.596);
+                border-bottom: solid 2px;
+                border-color: antiquewhite;
+                width: 100vw;
+                font-family: 'Alfa Slab One', cursive;
+                font-size: 1rem;
+                letter-spacing: 2px;
+                &__img {
+                    height: 120px;
+                    width: 120px;
+                    margin: 10px;
+                    margin-left: 10%;
+                }
+            }
+            
+            @media (max-width: 1086px) {
+                .phone {
+                    display: none;
+                }
+            }
+            
+            @media (min-width: 1086px) {
+                .phone__icon {
+                    display: none;
+                }
+            }
+            
+            .nav {
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+            
+            ul {
+                display: flex;
+                list-style-type: none;
+                flex-wrap: wrap;
+                gap: 10px
+            }
+            
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                margin: 2em;
+            }
+            
+            .phone {
+                font-size: 30px;
+                font-family: 'Shadows Into Light'cursive;
+                &__icon {
+                    position: absolute;
+                    margin-top: 30px;
+                    right: 2vw;
+                    width: 70px;
+                    height: 70px;
+                }
+            }

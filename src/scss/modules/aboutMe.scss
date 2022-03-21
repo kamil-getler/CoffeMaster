@@ -1,0 +1,51 @@
+.about {
+    background: rgb(243, 237, 237);
+    min-height: 300px;
+}
+
+.boxFoto {
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    &--img {
+        margin: 1vw;
+        overflow: hidden;
+        justify-content: center;
+        //min-height: 10px;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.about__Me article h1 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    color: black;
+    padding-top: 150px;
+    margin: 0;
+}
+
+.about__Me article p {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.parallax {
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2020/08/04/09/18/coffee-5462272_960_720.jpg);
+    &__about {
+        height: 20vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://cdn.pixabay.com/photo/2020/08/04/09/18/coffee-5462272_960_720.jpg);
+        margin-top: 10px;
+    }
+}

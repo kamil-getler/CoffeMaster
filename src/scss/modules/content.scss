@@ -1,0 +1,52 @@
+        .content {
+            border-top: solid;
+            border-color: rgb(129, 55, 55);
+            height: 100%;
+            background: rgb(224, 220, 212);
+            padding: 5px;
+        }
+        
+        .boxCoffe {
+            border: solid 2px;
+            background: rgba(173, 167, 167, 0);
+            border-top-left-radius: 90px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 30px 5vw 0px 10vw;
+            padding: 50px 0;
+            gap: 30px;
+            &__info {
+                border-bottom-right-radius: 40px;
+                border-color: black;
+                height: 400px;
+                width: 400px;
+                background: rgba(112, 76, 29, 0.89);
+                &--name {
+                    max-height: 20px;
+                    background: rgb(94, 43, 43);
+                    padding: 1vw;
+                    text-align: center;
+                    font-size: 1.5em;
+                    font-family: 'Dancing Script', cursive;
+                }
+            }
+        }
+        
+        h1 {
+            font-family: 'Shadows Into Light', cursive;
+            text-align: center;
+            color: black;
+            padding-top: 50px;
+            margin: 0;
+            font-size: 3em;
+        }
+        
+        p {
+            color: black;
+            text-align: justify;
+            padding: 30px;
+            font-size: 1.2em;
+            font-family: 'Dancing Script', cursive;
+        }

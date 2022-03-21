@@ -1,0 +1,28 @@
+.footer {
+    background: rgb(15, 12, 12);
+}
+
+.contact {
+    display: inline-block;
+    margin-left: 2em;
+    border-bottom: solid 2px;
+}
+
+.newsleter {
+    display: inline-block;
+    color: rgb(240, 234, 234);
+    margin-left: 100px;
+}
+
+.newsleter p {
+    margin-top: 3px;
+    color: white;
+}
+
+button {
+    background: rgb(221, 216, 216);
+    border: solid 1px;
+    border-color: white;
+    width: 200px;
+    border-radius: 20px;
+}
